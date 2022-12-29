@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>VS Code Clone</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script
+			src="https://kit.fontawesome.com/aaf9f1f44b.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body
+		class="max-w-screen-2xl mx-auto box-border font-['Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif]"
+	>
+		<!-- Navbar Section -->
+		<nav
+			class="w-full fixed flex items-center justify-between lg:justify-center box-border h-[50px] bg-[#2C2C32] px-4"
+		>
+			<!-- Left Nav Section -->
+			<div class="flex items-center lg:pr-[105px] xl:pr-[160px]">
+				<div class="flex items-center">
+					<img src="./assets/vscode-icon.png" alt="vscode-icon" class="w-6" />
+					<p class="text-white text-xl leading-5 px-3">Visual Studio Code</p>
+				</div>
+				<div class="lg:flex lg:items-center hidden">
+					<ul class="flex items-center text-[#A7A7AA] list-none">
+						<li
+							class="px-3 pt-4 pb-3 leading-5 hover:text-white cursor-pointer"
+						>
+							Docs
+						</li>
+						<li
+							class="px-3 pt-4 pb-3 leading-5 hover:text-white cursor-pointer"
+						>
+							Updates
+						</li>
+						<li
+							class="px-3 pt-4 pb-3 leading-5 hover:text-white cursor-pointer"
+						>
+							Blog
+						</li>
+						<li
+							class="px-3 pt-4 pb-3 leading-5 hover:text-white cursor-pointer"
+						>
+							API
+						</li>
+						<li
+							class="px-3 pt-4 pb-3 leading-5 hover:text-white cursor-pointer"
+						>
+							Extensions
+						</li>
+						<li
+							class="px-3 pt-4 pb-3 leading-5 hover:text-white cursor-pointer"
+						>
+							FAQ
+						</li>
+						<li
+							class="px-3 pt-4 pb-3 leading-5 hover:text-white cursor-pointer"
+						>
+							Learn
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Right Nav Section -->
+			<div class="lg:hidden">
+				<img
+					src="./assets/menu.png"
+					alt="menu-logo"
+					class="w-9 h-8 hover:bg-[#0066b8] rounded-md visible"
+				/>
+			</div>
+			<div class="lg:flex lg:items-center hidden">
+				<img
+					src="./assets/search.svg"
+					alt="search-icon"
+					class="w-4 mx-4 opacity-50 cursor-pointer hover:opacity-100 xl:hidden"
+				/>
+				<form action="" class="hidden xl:flex">
+					<div class="flex items-center">
+						<img
+							src="./assets/search.svg"
+							alt="search-icon"
+							class="w-4 absolute ml-4 cursor-pointer"
+						/>
+						<input
+							type="search"
+							name=""
+							id=""
+							placeholder="Search Docs"
+							autocomplete="off"
+							aria-label="Search Docs"
+							size="16"
+							class="h-[50px] bg-[#3D3D42] hover:bg-[#525257] placeholder-[#D8D8D9] pl-11 focus:outline-none text-white text-sm"
+						/>
+					</div>
+				</form>
+				<button
+					class="flex items-center justify-center bg-[#0066b8] hover:bg-[#005ba4] h-[50px] px-5"
+				>
+					<img src="./assets/download.svg" alt="download-icon" class="w-4" />
+					<p class="inline text-white ml-2 font-medium leading-4">Download</p>
+				</button>
+			</div>
+		</nav>
+	</body>
+</html>
