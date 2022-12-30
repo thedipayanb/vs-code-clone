@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="m-0 p-0 box-border">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,14 +12,14 @@
 		></script>
 	</head>
 	<body
-		class="max-w-screen-2xl mx-auto box-border font-['Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif]"
+		class="font-['Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif]"
 	>
 		<!-- Navbar Section -->
 		<nav
-			class="w-full fixed flex items-center justify-between lg:justify-center box-border h-[50px] bg-[#2C2C32] px-4"
+			class="w-full sticky top-0 flex items-center justify-between lg:justify-center px-4 box-border h-[50px] bg-[#2C2C32]"
 		>
 			<!-- Left Nav Section -->
-			<div class="flex items-center lg:pr-[105px] xl:pr-[160px]">
+			<div class="flex items-center lg:pr-[6.5rem] xl:pr-[10rem]">
 				<div class="flex items-center">
 					<img src="./assets/vscode-icon.png" alt="vscode-icon" class="w-6" />
 					<p class="text-white text-xl leading-5 px-3">Visual Studio Code</p>
@@ -105,5 +105,85 @@
 				</button>
 			</div>
 		</nav>
+		<!-- Version Banner -->
+		<div
+			class="flex items-center justify-center bg-[#25252b] px-16 py-3 text-white text-center"
+		>
+			<p>
+				<span class="text-[#0098ff] hover:underline cursor-pointer"
+					>Version 1.74</span
+				>
+				is now available! Read about the new features and fixes from October.
+			</p>
+		</div>
+		<!-- Hero Section -->
+		<main
+			class="bg-[#2c2c32] flex flex-col items-center lg:items-start lg:flex-row lg:justify-center w-full h-fit"
+		>
+			<!-- Hero Text -->
+			<div
+				class="flex flex-col items-center text-center text-white px-4 lg:mt-11"
+			>
+				<div class="my-6 lg:w-[293px] xl:w-[360px]">
+					<h1 class="text-[42px] leading-[46px] lg:text-5xl font-thin lg:pb-1">
+						Code editing.
+					</h1>
+					<h1 class="text-[42px] lg:text-5xl">Redefined.</h1>
+					<p class="font-light text-base lg:text-lg opacity-60 mt-3">
+						Free. Built on open source. Runs everywhere.
+					</p>
+				</div>
+				<div class="w-[293px] lg:w-[263px] xl:w-[277px]">
+					<div class="flex justify-center xl:h-[65px] lg:h-[60px] h-[55px]">
+						<button
+							class="bg-[#0066B8] hover:bg-[#005ba4] py-2 px-10 lg:px-5 mr-[2px]"
+						>
+							<h1 class="text-base xl:text-lg lg:text-md font-semibold">
+								Download for Windows
+							</h1>
+							<p class="text-xs lg:text-sm font-light">Stable Build</p>
+						</button>
+						<button
+							class="bg-[#0066B8] hover:bg-[#005ba4] xl:py-8 lg:py-7 w-10"
+						>
+							<img
+								src="./assets/chevronDown.svg"
+								alt="download-arrow"
+								class="w-4 h-4 absolute mx-2.5 -my-2"
+							/>
+						</button>
+					</div>
+					<div class="bg-[#25252b] rounded-lg mt-4 py-2">
+						<p class="text-xs lg:text-sm">
+							<span class="text-[#0098ff] hover:underline cursor-pointer"
+								>Web</span
+							>,
+							<span class="text-[#0098ff] hover:underline cursor-pointer"
+								>Insiders edition</span
+							>
+							<span class="opacity-60">, or </span>
+							<span class="text-[#0098ff] hover:underline cursor-pointer"
+								>other platforms</span
+							>
+						</p>
+					</div>
+					<div class="text-xs font-light py-1 mt-3">
+						<p class="opacity-60">By using VS Code, you agree to its</p>
+						<p>
+							<span class="text-[#0098ff] hover:underline cursor-pointer"
+								>license and privacy statement</span
+							>.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- Hero Image -->
+			<div
+				class="xl:w-[750px] xl:h-[590px] lg:w-[617px] lg:h-[480px] bg-[url('./assets/home-screenshot-win-lg.png')] bg-cover bg-no-repeat px-4 my-8 hidden lg:block"
+			></div>
+			<div class="max-w-[617px] max-h-max w-full m-auto px-4 mt-4 lg:hidden">
+				<img src="./assets/home-screenshot-win-lg.png" alt="screenshot" />
+			</div>
+		</main>
 	</body>
 </html>
