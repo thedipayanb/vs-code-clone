@@ -16,7 +16,7 @@
 	>
 		<!-- Navbar Section -->
 		<nav
-			class="w-full sticky top-0 flex items-center justify-between lg:justify-center px-4 box-border h-[50px] bg-[#2C2C32]"
+			class="w-full sticky top-0 flex items-center justify-between lg:justify-center px-4 box-border h-[50px] bg-[#2C2C32] drop-shadow-lg z-10"
 		>
 			<!-- Left Nav Section -->
 			<div class="flex items-center lg:pr-[6.5rem] xl:pr-[10rem]">
@@ -185,5 +185,98 @@
 				<img src="./assets/home-screenshot-win-lg.png" alt="screenshot" />
 			</div>
 		</main>
+		<!-- Feature Logos -->
+		<section class="flex justify-center">
+			<div
+				class="lg:w-[1170px] w-[970px] grid grid-cols-2 justify-items-center lg:grid-cols-4"
+			>
+				<div
+					class="px-4 py-5 w-[90%] hover:bg-[#e3e3e3] bg-[url('./assets/intellisense.png')] hover:bg-[url('./assets/intellisense-blue.png')] bg-contain bg-[center_top_1.25rem] bg-no-repeat bg-[length:42px_42px] lg:bg-[length:50px_50px] text-center text-[#444444] hover:text-black cursor-pointer"
+				>
+					<p class="text-lg lg:text-xl mt-[60px]">IntelliSense</p>
+				</div>
+				<div
+					class="px-4 py-5 w-[90%] hover:bg-[#e3e3e3] bg-[url('./assets/run-debug.png')] hover:bg-[url('./assets/run-debug-green.png')] bg-contain bg-[center_top_1.25rem] bg-no-repeat bg-[length:42px_42px] lg:bg-[length:50px_50px] text-center text-[#444444] hover:text-black cursor-pointer"
+				>
+					<p class="text-lg lg:text-xl mt-[60px]">Run and Debug</p>
+				</div>
+				<div
+					class="px-4 py-5 w-[90%] hover:bg-[#e3e3e3] bg-[url('./assets/git.png')] hover:bg-[url('./assets/git-red.png')] bg-contain bg-[center_top_1.25rem] bg-no-repeat bg-[length:42px_42px] lg:bg-[length:50px_50px] text-center text-[#444444] hover:text-black cursor-pointer"
+				>
+					<p class="text-lg lg:text-xl mt-[60px]">Built-in Git</p>
+				</div>
+				<div
+					class="px-4 py-5 w-[90%] hover:bg-[#e3e3e3] bg-[url('./assets/extensions.png')] hover:bg-[url('./assets/extensions-black.png')] bg-contain bg-[center_top_1.25rem] bg-no-repeat bg-[length:42px_42px] lg:bg-[length:50px_50px] text-center text-[#444444] hover:text-black cursor-pointer"
+				>
+					<p class="text-lg lg:text-xl mt-[60px]">Extensions</p>
+				</div>
+			</div>
+		</section>
+		<!-- Reviews -->
+		<section class="bg-[#f5f5f5] flex justify-center">
+			<div class="max-w-[1170px] grid grid-cols-1 lg:grid-cols-3 my-16">
+				<div class="flex justify-center px-4 py-4">
+					<div class="">
+						<img
+							src="./assets/Una.jpg"
+							alt="Una"
+							class="rounded-full w-[72px]"
+						/>
+					</div>
+					<div
+						class="w-4/5 ml-3 bg-[url('./assets/twitter.svg')] bg-contain bg-no-repeat bg-[right_top_4px] bg-[length:16px_16px]"
+					>
+						<p class="font-bold text-sm inline">Una Kravets</p>
+						<p class="text-xs opacity-80 lg:inline">@Una</p>
+						<p class="lg:text-lg">
+							VS <span class="text-[#0066b8]">@code</span> does so many things
+							right. I'm constantly impressed by the UX, and customizing
+							workspace / user preferences is no exception. 🙌🏼💯 It just keeps
+							getting better ❤️
+						</p>
+					</div>
+				</div>
+				<div class="flex justify-center px-4 py-4">
+					<div>
+						<img
+							src="./assets/jadbox.jpg"
+							alt="jonathan"
+							class="rounded-full w-[72px]"
+						/>
+					</div>
+					<div
+						class="w-4/5 ml-3 bg-[url('./assets/twitter.svg')] bg-contain bg-no-repeat bg-[right_top_4px] bg-[length:16px_16px]"
+					>
+						<p class="font-bold text-sm inline">Jonathan Dunlap</p>
+						<p class="text-xs opacity-80 lg:inline">@jadbox</p>
+						<p class="lg:text-lg">
+							VS Code will have deep remote development. You can connect to a
+							container running a different OS and use any VS Code plugins,
+							linting, debugging for that environment. 🔥🔥🔥
+						</p>
+					</div>
+				</div>
+				<div class="flex justify-center px-4 py-4">
+					<div>
+						<img
+							src="./assets/PKodmad.jpg"
+							alt="pavithra"
+							class="rounded-full w-[72px]"
+						/>
+					</div>
+					<div
+						class="w-4/5 ml-3 bg-[url('./assets/twitter.svg')] bg-contain bg-no-repeat bg-[right_top_4px] bg-[length:16px_16px]"
+					>
+						<p class="font-bold text-sm inline">Pavithra Kodmad</p>
+						<p class="text-xs opacity-80 lg:inline">@PKodmad</p>
+						<p class="lg:text-lg">
+							VS Code is my most used and favorite editor. I love being able to
+							customize the editor - changing the layout, the icons, fonts and
+							color scheme is so easy!
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
