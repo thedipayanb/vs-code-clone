@@ -4,6 +4,12 @@
 
 I learned so many things while building this project. Flexbox, Grid, Position, Media Query everything got cleared.
 
+### Tech Stack
+
+- HTML
+- CSS
+- Tailwind CSS
+
 ### :rocket: [Live Link](https://vscode-clone-dipayan.netlify.app)
 
 ### Output
