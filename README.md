@@ -14,4 +14,8 @@ I learned so many things while building this project. Flexbox, Grid, Position, M
 
 ### Output
 
-![vscode-clone-output](vscode-clone-output.png)
+**[Desktop View]**
+
+![vscode-clone-output-desktop](vscode-clone-output-desktop.png)
+
+**[Mobile View]**
