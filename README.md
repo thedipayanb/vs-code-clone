@@ -13,3 +13,5 @@ I learned so many things while building this project. Flexbox, Grid, Position, M
 ### :rocket: [Live Link](https://vscode-clone-dipayan.netlify.app)
 
 ### Output
+
+![vscode-clone-output](vscode-clone-output.png)
