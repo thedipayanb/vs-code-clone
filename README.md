@@ -17,5 +17,3 @@ I learned so many things while building this project. Flexbox, Grid, Position, M
 **[Desktop View]**
 
 ![vscode-clone-output-desktop](vscode-clone-output-desktop.png)
-
-**[Mobile View]**
