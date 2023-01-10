@@ -10,6 +10,7 @@ I learned so many things while building this project. Like,
 - Where to use Flexbox and where to use Grid
 - CSS Positions
 - z-index
+- Using utility-first tailwind classes
 - Responsive Design using Tailwind CSS
 
 ### Tech Stack
