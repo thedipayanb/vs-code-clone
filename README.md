@@ -13,7 +13,7 @@ I learned so many things while building this project. Like,
 - Using utility-first tailwind classes
 - Responsive Design using Tailwind CSS
 
-### Tech Stack
+### Tech Stack:
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -21,7 +21,7 @@ I learned so many things while building this project. Like,
 
 ### :rocket: [Live Link](https://vscode-clone-dipayan.netlify.app)
 
-### Overview
+### Overview:
 
 **[Desktop View]**
 
