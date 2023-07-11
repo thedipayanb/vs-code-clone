@@ -1,6 +1,6 @@
 # vs-code-clone
 
-Made a **Fully Responsive** clone of VS Code using **Tailwind CSS**.
+Made a **Fully Responsive** UI clone of VS Code using **Tailwind CSS**.
 
 I learned so many things while building this project. Like,
 
